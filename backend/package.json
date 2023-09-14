@@ -2,12 +2,12 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/loader.js",
+  "main": "./src/config/server.js",
   "engines": {
     "node": "18.x"
   },
   "scripts": {
-    "start": "node ./src/loader.js",
+    "start": "node ./src/config/server.js",
     "dev": "nodemon",
     "production": "pm2 start src/loader.js --name todo-app"
   },
