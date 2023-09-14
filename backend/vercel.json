@@ -1,7 +1,7 @@
 {
     "version": 2,
     "builds":[{
-        "src":"./src/config/server.js",
+        "src":"src/loader.js",
         "use": "@vercel/node"
     }],
     "routes":[
